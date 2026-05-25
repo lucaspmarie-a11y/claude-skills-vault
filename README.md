@@ -2,6 +2,13 @@
 
 1,326+ Claude Code skills from the Antigravity Awesome Skills library — security, frontend, backend, DevOps, AI/ML, cloud, and more.
 
+
+## ⚠️ Prerequisites
+
+These installation scripts only install the **skills**. You must have the following already installed on your system:
+- [Claude Code](https://claude.ai/code)
+- [Ollama](https://ollama.com/)
+
 ## Quick Install
 
 ### Option 1: One-liner (all skills)
