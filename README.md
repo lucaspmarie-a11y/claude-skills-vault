@@ -80,6 +80,17 @@ Copy-Item -Recurse -Force "claude-skills-vault\skills\*" "$env:USERPROFILE\.clau
 Remove-Item -Recurse -Force claude-skills-vault
 ```
 
+### 🛠 Troubleshooting: "claude: command not found"
+If you have installed Claude Code but your terminal says it is not installed or cannot find the command, you must configure your environment variables:
+
+1. **Open Environment Variables** (Search for "Variables d'environnement" in Windows).
+2. **Add the following variable** to both **User variables** AND **System variables**:
+   - **Variable name:** `claude`
+   - **Variable value:** `C:\Users\<YourUsername>\.local\bin` (Replace `<YourUsername>` with your actual Windows username).
+3. **Update the Path:**
+   - Find the `Path` variable in **User variables**, click **Edit**, and add a new entry: `C:\Users\<YourUsername>\.local\bin`
+4. **Restart your terminal** (PowerShell, CMD, or Bash) for changes to take effect.
+
 ## Verify Installation
 
 ```bash
