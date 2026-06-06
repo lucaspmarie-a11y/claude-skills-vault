@@ -88,7 +88,7 @@ If you have installed Claude Code but your terminal says it is not installed or 
    - **Variable name:** `claude`
    - **Variable value:** `C:\Users\<YourUsername>\.local\bin` (Replace `<YourUsername>` with your actual Windows username).
 3. **Update the Path:**
-   - Find the `Path` variable in **User variables**, click **Edit**, and add a new entry: `C:\Users\<YourUsername>\.local\bin`
+   - Find the `Path` variable in **both User variables AND System variables**, click **Edit**, and add a new entry: `C:\Users\<YourUsername>\.local\bin`
 4. **Restart your terminal** (PowerShell, CMD, or Bash) for changes to take effect.
 
 ## Verify Installation
